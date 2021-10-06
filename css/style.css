@@ -1,0 +1,182 @@
+
+* /*selector universal*/ { /*pongo a cero el documento*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul { /*quito los estilos preestablecidos para todos los ul*/
+    list-style: none;
+}
+
+.header {
+    background-color: rgb(0, 0, 0) ;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;}
+
+.contenedorDeNavegacion {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navegacion {
+    min-width: 50%;
+
+}
+.lista_navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion__anclas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.img-chica{
+    width: 70px; height: 70px;
+}
+
+/*------------------- FIN HEADER----------------------------------------------------------------------------*/
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    background: rgb(0, 0, 0);
+    }
+
+.box0hero {
+    height: auto;
+    width: auto;
+    color: rgb(85, 255, 6);
+    padding: 16px;
+    margin: 16px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.box1hero {
+    height: auto;
+    width: auto;
+    color: blanchedalmond;
+    padding: 16px;
+    margin: 16px;
+    border: 6px solid rgb(94, 235, 240);
+    border-radius: 10px;
+
+
+}
+.box2hero {
+    height: auto;
+    width: auto;
+    color: blanchedalmond;
+    padding: 16px;
+    margin: 16px;
+    border: 6px solid rgb(94, 240, 94);
+    border-radius: 10px;
+
+}
+
+
+.spanDbox0hero {
+    color: crimson;
+    font-family: 'Barrio', cursive;
+    }
+
+/*-------------------FIN HERO-------------------------------------------------------------------------------*/
+.seccion1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: auto;
+    background-image: url('../img/artificial-intelligence-gf1d41018a_1920.jpg');
+    background-attachment: fixed; /*fijo la imagen de fondo*/ 
+    background-position: center;
+}
+    .box0Seccion1 {
+        height: auto;
+        width: auto;
+        color: rgb(255, 238, 4);
+        padding: 16px;
+        margin: 16px;
+        border: 6px solid rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+    .box1Seccion1 {
+        height: auto;
+        width: auto;
+        color: red;
+        padding: 16px;
+        margin: 16px;
+        border: 6px solid rgb(94, 235, 240);
+        border-radius: 10px;
+    
+    
+    }
+    .box2Seccion1 {
+        height: auto;
+        width: auto;
+        color: rgb(43, 255, 0);
+        padding: 16px;
+        margin: 16px;
+        border: 6px solid rgb(94, 240, 94);
+        border-radius: 10px;
+    
+    }
+    
+    
+    .spanSeccion1 {
+        color: rgb(27, 220, 20);
+        font-family: 'Barrio', cursive;
+        }
+
+/*--------------------FIN SECCION 1-----------------------------------------------------------------------------*/
+
+
+.seccion2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/*--------------------FIN SECCION 2-----------------------------------------------------------------------------*/
+
+.seccion3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+/*--------------------FIN SECCION 3-----------------------------------------------------------------------------*/
+
+.footer {
+    background-color: rgb(255, 238, 4);
+}
+
+/*--------------------FIN FOOTER--------------------------------------------------------------------------------*/
+
+
+
+
