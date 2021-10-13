@@ -10,7 +10,8 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
 }
 
 .header {
-    background-color: rgb(0, 0, 0) ;
+    /*background-color: rgb(0, 0, 0) ;*/
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgb(0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding-top: 16px;
     padding-bottom: 16px;
     width: 100%;}
@@ -41,7 +42,7 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
     text-decoration: none;
     font-size: 18px;
     padding: 8px;
-    border: 2px solid red;
+    border: 2px solid rgb(241, 16, 16);
     border-radius: 10px;
 }
 
@@ -59,7 +60,15 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
     height: auto;
     background: rgb(0, 0, 0);
     }
-
+.heroINST{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
 .box0hero {
     height: auto;
     width: auto;
@@ -108,7 +117,43 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
     background-attachment: fixed; /*fijo la imagen de fondo*/ 
     background-position: center;
 }
-    .box0Seccion1 {
+
+.seccion1SERVICIO { /*Secion 1 de pagina servicios*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: auto;
+    background-color: black;
+    background-position: center;
+}
+.herocontacto { /* Hero de la pagina de contacto*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-image: url('../img/mountain-g4c9b913e3_1280.png');
+    background-attachment: fixed; /*fijo la imagen de fondo*/ 
+    background-position: center;
+    color: white;
+}
+
+.seccion1institucional { /*seccion 1 de la pagina institucional*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    background-image: url('../img/instagram-gcb38d4858_1920.jpg');
+    background-attachment: fixed; /*fijo la imagen de fondo*/ 
+    background-position: center;
+    color: white;
+
+}
+
+
+    .box0Seccion1 { 
         height: auto;
         width: auto;
         color: rgb(255, 238, 4);
@@ -117,6 +162,8 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
         border: 6px solid rgb(255, 255, 255);
         border-radius: 10px;
     }
+
+    
     .box1Seccion1 {
         height: auto;
         width: auto;
@@ -139,7 +186,16 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
     
     }
     
-    
+    .seccion1contacto { /*seccion 1 de pagina de contacto*/
+
+        height: auto;
+        width: auto;
+        color: rgb(43, 255, 0);
+        padding: 16px;
+        margin: 16px;
+        border: 6px solid rgb(94, 240, 94);
+        border-radius: 10px;
+    }
     .spanSeccion1 {
         color: rgb(27, 220, 20);
         font-family: 'Barrio', cursive;
@@ -152,7 +208,7 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: auto;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
@@ -172,11 +228,52 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
 /*--------------------FIN SECCION 3-----------------------------------------------------------------------------*/
 
 .footer {
-    background-color: rgb(255, 238, 4);
+    /*background-color: rgb(0, 0, 0) ;*/
+    background: -webkit-linear-gradient(top, rgb(0, 0, 0) 31%,rgba(14,14,14,1) 50%,rgba(125,126,125,1) 100%); /* Chrome10-25,Safari5.1-6 */    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
 }
 
+.footerContent {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+}
+
+.footerNav {
+    min-width: 50%;
+
+}
+.list_footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerNavAnclas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px;
+    border: 2px solid rgb(43, 255, 15);
+    border-radius: 150px;
+}
+
+.footerNavAnclasWSP {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px;
+    border: 2px solid rgb(255, 0, 191);
+    
+}
 /*--------------------FIN FOOTER--------------------------------------------------------------------------------*/
-
-
-
-
