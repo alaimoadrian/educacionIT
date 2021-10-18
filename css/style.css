@@ -282,22 +282,15 @@ ul { /*quito los estilos preestablecidos para todos los ul*/
 /*Aplicar media query en archivo CSS*/
 @media (max-width: 768px){
     /*Estilos de nav*/
-    nav {
+    body {
         width: 100%; 
     }
 
-    section {
-        width: 100%; 
-    }
 }
 
 @media (max-width: 1200px){
     /*Estilos de nav*/
-    nnav {
-        width: 100%; 
-    }
-
-    section {
+    body {
         width: 100%; 
     }
 }
